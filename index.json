@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "description": "Utility functions for working with index.json files",
+  "functions": [
+    {
+      "name": "readIndexFile",
+      "description": "Reads data from an index.json file and returns it as an object",
+      "usage": "const data = readIndexFile('path/to/index.json');"
+    },
+    {
+      "name": "writeIndexFile",
+      "description": "Writes data to an index.json file",
+      "usage": "writeIndexFile('path/to/index.json', { key1: 'value1', key2: 'value2' });"
+    },
+    {
+      "name": "updateIndexFile",
+      "description": "Updates an existing index.json file with new data",
+      "usage": "updateIndexFile('path/to/index.json', { key3: 'new value' });"
+    },
+    {
+      "name": "deleteKeyFromIndexFile",
+      "description": "Deletes a specific key from an index.json file",
+      "usage": "deleteKeyFromIndexFile('path/to/index.json', 'key2');"
+    }
+  ]
+}
